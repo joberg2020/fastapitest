@@ -1,0 +1,7 @@
+*.pyc
+__pycache__
+.env
+fast_api_venv/
+.vscode/
+*.png
+uvicorn fast_api_venv.main:app --reload
